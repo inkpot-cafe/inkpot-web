@@ -4,17 +4,24 @@
   "description": "",
   "private": true,
   "dependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
     "lodash": "^4.17.11",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
     "webpack": "^4.19.1"
   },
   "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.0.3",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.8"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server --host 0.0.0.0 --open"
+    "start": "webpack-dev-server --host 0.0.0.0"
   },
   "keywords": [],
   "author": "",
