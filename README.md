@@ -1,3 +1,21 @@
+## Develop
+
+Make sure that the last version of Docker is installed in your machine. To develop this project just type:
+
+```
+docker build -t inkpot .
+```
+
+and then:
+
+```
+docker run --name inkpot -p 8080:3000 -v ${PWD}:/usr/src/app -v /usr/src/app/node_modules --rm inkpot
+```
+
+___
+
+## Notes
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
