@@ -3,18 +3,17 @@ FROM node:8-alpine
 # Create app directory
 WORKDIR /usr/src/app
 
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
-COPY package*.json ./
+# add `/usr/src/app/node_modules/.bin` to $PATH
+ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
-RUN npm install
+# install and cache app dependencies
+COPY package*.json ./
+RUN npm install --silent
+RUN npm install react-scripts@1.1.1 -g --silent
 
 # Bundle app source
 COPY . .
 
 EXPOSE 3000
-
-RUN npm build
 
 CMD [ "npm", "start" ]
