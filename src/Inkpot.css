@@ -1,0 +1,36 @@
+.inkpot {
+  text-align: center;
+  background-color: aliceblue;
+  height: 100vh;
+}
+
+.inkpot-logo {
+  height: 80px;
+}
+
+.inkpot-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.inkpot-footer {
+  background-color: #222;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.inkpot-info {
+  font-size: 0.7em;
+  color: aliceblue;
+  padding-top: 5%;
+}
+
+.inkpot-title {
+  font-size: 1.5em;
+}
+
+.inkpot-intro {
+  font-size: large;
+}
