@@ -1,34 +1,36 @@
 .inkpot {
   text-align: center;
-  background-color: aliceblue;
-  height: 100vh;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .inkpot-logo {
-  height: 80px;
+  height: 20%;
 }
 
 .inkpot-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  height: 20%;
+  padding: 3%;
+  color: rgba(255, 255, 255, 0.322);
+}
+
+.inkpot-content {
+  height: 60%;
 }
 
 .inkpot-footer {
   background-color: #222;
-  vertical-align: middle;
-  height: 100%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  bottom: 0;
+  margin-bottom: 0;
+  height: 20%;
 }
 
 .inkpot-info {
   font-size: 0.7em;
-  color: aliceblue;
-  padding-top: 5%;
-}
-
-.inkpot-title {
-  font-size: 1.5em;
 }
 
 .inkpot-intro {

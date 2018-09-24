@@ -2,17 +2,20 @@ import * as React from 'react';
 import './Inkpot.css';
 import Pot from './Pot'
 
-import logo from './logo.svg';
+import logo from './inkpot_logo.png';
 
 class Inkpot extends React.Component {
   public render() {
     return (
       <div className="inkpot">
         <header className="inkpot-header">
-          <img src={logo} className="inkpot-logo" alt="logo" />
-          <h1 className="inkpot-title">I'm going to be Inkpot</h1>
+          <div>
+            <img src={logo} className="inkpot-logo" alt="logo" />
+          </div>
         </header>
-        <Pot />
+        <div className="inkpot-content">
+          <Pot />
+        </div>
         <footer className="inkpot-footer">
           <div className="inkpot-info">
             <p>Una pioggia di parole</p>

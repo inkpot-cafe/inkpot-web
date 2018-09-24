@@ -17,6 +17,6 @@ render(
   <Provider store={store}>
     <Inkpot />
   </Provider>,
-  document.getElementById('root') as HTMLElement
+  document.body
 );
 registerServiceWorker();

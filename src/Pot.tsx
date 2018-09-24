@@ -8,7 +8,6 @@ class Pot extends React.Component {
     return (
       <div className="pot">
         <Ink />
-        <Ink />
       </div>
     );
   }

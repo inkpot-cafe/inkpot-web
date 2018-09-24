@@ -1,7 +1,12 @@
 .ink {
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
 }
 
 .ink-paragraph {
   font-family: 'Times New Roman', Times, serif;
+  font-size: 21px;
+  color: rgb(54, 54, 54);
   text-align: justify;
 }
