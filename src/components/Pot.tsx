@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import * as React from 'react';
 
 import Ink from './Ink'
 
-class Pot extends Component {
+class Pot extends React.Component {
   public render() {
     return (
       <div>
