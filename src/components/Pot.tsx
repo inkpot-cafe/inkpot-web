@@ -5,7 +5,7 @@ import Ink from './Ink'
 class Pot extends React.Component {
   public render() {
     return (
-      <div>
+      <div className="pot container-fluid">
         <Ink />
       </div>
     );

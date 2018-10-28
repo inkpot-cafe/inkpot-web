@@ -2,21 +2,15 @@ import * as React from 'react';
 
 import Pot from './Pot'
 import Header from './Header';
+import Footer from './Footer';
 
 class Inkpot extends React.Component {
   public render() {
     return (
-      <div>
+      <div id="inkpot">
         <Header />
-        <div className='container'>
-          <Pot />
-          <div>
-            <address>
-              <p>Una pioggia di parole</p>
-              <p>info@inkpot.it</p>
-            </address>
-          </div>
-        </div>
+        <Pot />
+        <Footer />
       </div>
     );
   }
