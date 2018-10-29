@@ -6,9 +6,10 @@ class Header extends React.Component {
     return (
       <header>
         <div className="container">
-          <img src={logo} className="img-fluid" />
+          <div className="logo">
+            <img src={logo} className="img-fluid" />
+          </div>
         </div>
-        
       </header>
     );
   }
