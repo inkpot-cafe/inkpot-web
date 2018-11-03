@@ -2,6 +2,8 @@ import * as React from 'react';
 
 import Ink from './Ink'
 
+import * as contents from '../assets/resources/stories.json'
+
 class Pot extends React.Component {
   public render() {
 
