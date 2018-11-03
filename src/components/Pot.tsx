@@ -8,6 +8,7 @@ class Pot extends React.Component {
   public render() {
 
     const inks = contents.map(
+      // TODO: change index with the story id
       (content: string, index) => <Ink key={index} content={content} />
     )
 
