@@ -4,9 +4,14 @@ import Ink from './Ink'
 
 class Pot extends React.Component {
   public render() {
+
+    const inks = contents.map(
+      (content: string, index) => <Ink key={index} content={content} />
+    )
+
     return (
       <div className="pot container-fluid pt-4 pb-4">
-        <Ink />
+        {inks}
       </div>
     );
   }
