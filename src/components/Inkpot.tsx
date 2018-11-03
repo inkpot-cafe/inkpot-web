@@ -7,11 +7,11 @@ import Footer from './Footer';
 class Inkpot extends React.Component {
   public render() {
     return (
-      <div id="inkpot">
+      <React.Fragment>
         <Header />
         <Pot />
         <Footer />
-      </div>
+      </React.Fragment>
     );
   }
 }
