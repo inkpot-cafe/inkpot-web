@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as logo from '../resources/inkpot_logo.png'
+import * as logo from '../assets/images/inkpot_logo.png'
 
 class Header extends React.Component {
   public render() {
