@@ -3,7 +3,7 @@
 # Only use spaces to indent your .yml configuration.
 # -----
 # You can specify a custom docker image from Docker Hub as your build environment.
-image: atlassian/default-image:2
+image: node
 
 pipelines:
   tags:
@@ -12,8 +12,8 @@ pipelines:
           deployment: production
           name: Deploy to 1&1
           script:
-            - node install
-            - node build
+            - yarn install
+            - yarn build
             - apt-get update
             - apt-get -qq install git-ftp
             - cd dest
