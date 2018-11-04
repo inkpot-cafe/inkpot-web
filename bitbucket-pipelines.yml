@@ -16,5 +16,5 @@ pipelines:
             - yarn build
             - apt-get update
             - apt-get -qq install git-ftp
-            - git ftp init
-            - git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD $FTP_ADDRESS
+            - git ftp init --user $FTP_USERNAME --passwd $FTP_PASSWORD $FTP_ADDRESS
+            - git ftp push 
