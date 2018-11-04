@@ -6,15 +6,14 @@
 image: atlassian/default-image:2
 
 pipelines:
-  custom:
-    build:
+  tags:
+    v*:
       - step:
+          deployment: production
+          name: Deploy to 1&1
           script:
             - yarn install
             - yarn build
-    deploy:
-      - step:
-          script:
             - apt-get update
             - apt-get -qq install git-ftp
             - git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD $FTP_ADDRESS
