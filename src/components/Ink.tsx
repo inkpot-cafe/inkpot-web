@@ -5,7 +5,7 @@ class Ink extends React.Component<{ content: string }> {
     const { content } = this.props;
 
     return (
-      <div className="ink container px-0 pt-4">
+      <div className="ink container-fluid">
         {content}
       </div>
     );

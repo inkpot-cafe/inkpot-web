@@ -7,5 +7,5 @@ import './style/app.scss'
 
 ReactDom.render(
     <Inkpot />,
-  document.body
+  document.getElementById("inkpot")
 );

@@ -13,7 +13,7 @@ class Pot extends React.Component {
     )
 
     return (
-      <div className="pot container-fluid pt-4 pb-4">
+      <div className="pot">
         {inks}
       </div>
     );

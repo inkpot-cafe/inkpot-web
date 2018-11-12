@@ -4,8 +4,8 @@ class Footer extends React.Component {
     public render() {
         return (
             <footer>
-                <div className="container pt-4">
-                    <div className="raw">Inkpot @ slartibartfast</div>
+                <div className="container greetings">
+                    Inkpot @ slartibartfast
                 </div>
             </footer>
         );
