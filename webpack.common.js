@@ -41,6 +41,22 @@ module.exports = {
         ]
       },
 
+      // Load .md files
+      {
+        test: /\.md$/,
+        use: [
+            {
+                loader: "html-loader"
+            },
+            {
+                loader: "markdown-loader",
+                options: {
+                    /* your options here */
+                }
+            }
+        ]
+      },
+
       // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
       { enforce: 'pre', test: /\.js$/, loader: 'source-map-loader' }
     ]
