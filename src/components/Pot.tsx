@@ -8,7 +8,7 @@ import * as ink3 from '../assets/resources/inks/Libera volontà e natura.md'
 import * as ink4 from '../assets/resources/inks/Pregiudizi antropocentrici.md'
 import * as ink5 from '../assets/resources/inks/René Girard e la menzogna romantica.md'
 import * as ink6 from '../assets/resources/inks/The mess Inside.md'
-import * as ink7 from "../assets/resources/inks/Verso una mente ecologicamente orientata: l'individualismo biocentrico di Paul Taylor.md"
+import * as ink7 from "../assets/resources/inks/Verso una mente ecologicamente orientata l'individualismo biocentrico di Paul Taylor.md"
 
 class Pot extends React.Component {
   public render() {
