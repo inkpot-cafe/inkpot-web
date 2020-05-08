@@ -65,17 +65,17 @@ Riferimenti Bibliografici:
 
 * Donella H. Meadows, Dennis L. Meadows, Jorgen Randers, William W. Behrens III, The Limits to Growths, Universe Books, 1972
 
-* http://www.enea.it/it/centro-ricerche-casaccia/storia-del-centro
+* [enea storia del centro](http://www.enea.it/it/centro-ricerche-casaccia/storia-del-centro)
 
 * Our Common Future, in Report of The World commission on environment and development, London, Oxford University Press, 1987
 
 * World Summit on Sustainable Development, WSSD o ONG Earth Summit 2002, Johannesburg, South Africa, dal 26 Agosto l 4 Settembre 2002
 
-* http://eur-lex.europa.eu/legal-content/IT/TXT/uri=URISERV%3Al28102
+* [europa.eu/legal-content](http://eur-lex.europa.eu/legal-content/IT/TXT/uri=URISERV%3Al28102)
 
-* http://www.legambiente.it/sites/default/files/docs/statuto_nazionale_di_legambiente_onlus.pdf
+* [statuto nazionale di legambiente onlus](http://www.legambiente.it/sites/default/files/docs/statuto_nazionale_di_legambiente_onlus.pdf)
 
-* http://awsassets.wwfit.panda.org/downloads/documento_assemblea.pdf
+* [wwfit.panda.org](http://awsassets.wwfit.panda.org/downloads/documento_assemblea.pdf)
 
 * GLiPHA, Statistiche del 2007
 
