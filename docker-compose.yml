@@ -2,12 +2,12 @@ version: '3'
 services:
 
     inkpot-api:
-        image: inkpot
+        image: inkpot-api
         container_name: inkpot-api
         ports:
             - 8080:8080
         volumes:
-            - inkpot:neo
+            - inkpot:/neo
 
     inkpot-web:
         image: inkpot-web
