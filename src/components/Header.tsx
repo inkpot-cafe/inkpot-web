@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as logo from '../assets/images/inkpot_logo.png'
 
 class Header extends React.Component {
-  public render() {
+  render() {
     return (
       <header>
         <div className="container">

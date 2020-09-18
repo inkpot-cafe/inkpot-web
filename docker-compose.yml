@@ -1,0 +1,21 @@
+version: '3'
+services:
+
+    inkpot-api:
+        image: inkpot
+        container_name: inkpot-api
+        ports:
+            - 8080:8080
+        volumes:
+            - inkpot:neo
+
+    inkpot-web:
+        image: inkpot-web
+        container_name: inkpot-web
+        ports:
+            - 80:80
+        links: 
+            - inkpot-api
+
+volumes:
+  inkpot:

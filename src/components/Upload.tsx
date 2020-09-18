@@ -10,7 +10,7 @@ class Upload extends React.Component<{}, { file: File, uploaded: Boolean }> {
         }
     }
 
-    public render() {
+    render() {
         return (
             <React.Fragment>
                 <input id="upload" name="file" type="file" onChange={this.onChangeHandler}/>
@@ -27,7 +27,7 @@ class Upload extends React.Component<{}, { file: File, uploaded: Boolean }> {
         })
     }
 
-    private onClickHandler = (event: any) => {
+    private onClickHandler = () => {
         if (this.state.file) {
             const reader = new FileReader()
             reader.onload = function (event: any) {
