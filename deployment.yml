@@ -10,9 +10,14 @@ spec:
   selector:
     matchLabels:
       app: inkpot-web-deployment
+  template:
+    metadata:
+      labels:
+        app: inkpot-web-deployment
     spec:
       containers:
       - image: gcr.io/PROJECT_ID/IMAGE:TAG
+        name: inkpot-web-deployment
         ports:
         - containerPort: 80
           protocol: TCP
