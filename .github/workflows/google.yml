@@ -19,9 +19,9 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: inkpot-cluster-1    # TODO: update to cluster name
-  GKE_ZONE: europe-west1-b   # TODO: update to cluster zone
-  DEPLOYMENT_NAME: gke-test # TODO: update to deployment name
+  GKE_CLUSTER: inkpot-cluster-1
+  GKE_ZONE: europe-west1-b
+  DEPLOYMENT_NAME: inkpot-web-deployment
   IMAGE: inkpot-web
 
 jobs:
@@ -55,7 +55,6 @@ jobs:
           --tag "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA" \
           --build-arg GITHUB_SHA="$GITHUB_SHA" \
           --build-arg GITHUB_REF="$GITHUB_REF" \
-          --no-cache \
           .
 
     # Push the Docker image to Google Container Registry
