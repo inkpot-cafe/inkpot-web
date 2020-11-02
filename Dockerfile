@@ -1,5 +1,6 @@
 FROM node:alpine AS build
 COPY package.json ./
+COPY yarn.lock ./
 RUN yarn install
 COPY . .
 RUN yarn build
