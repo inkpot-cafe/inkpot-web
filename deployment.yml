@@ -1,7 +1,5 @@
 apiVersion: apps/v1
 kind: Deployment
-  creationTimestamp: "2020-10-30T16:07:12Z"
-  generation: 13
   labels:
     app: inkpot-web-deployment
   name: inkpot-web-deployment
