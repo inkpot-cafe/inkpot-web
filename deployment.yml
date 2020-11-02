@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+  creationTimestamp: "2020-10-30T16:07:12Z"
+  generation: 13
+  labels:
+    app: inkpot-web-deployment
+  name: inkpot-web-deployment
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: inkpot-web-deployment
+    spec:
+      containers:
+      - image: gcr.io/PROJECT_ID/IMAGE:TAG
+        ports:
+        - containerPort: 80
+          protocol: TCP
