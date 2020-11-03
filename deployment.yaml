@@ -16,7 +16,7 @@ spec:
         app: inkpot-web-deployment
     spec:
       containers:
-      - image: gcr.io/PROJECT_ID/IMAGE:TAG
+      - image: eu.gcr.io/PROJECT_ID/IMAGE:TAG
         name: inkpot-web-deployment
         ports:
         - containerPort: 80
