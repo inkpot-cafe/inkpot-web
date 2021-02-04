@@ -18,6 +18,9 @@ spec:
       containers:
       - image: eu.gcr.io/PROJECT_ID/IMAGE:TAG
         name: inkpot-web-deployment
+        resources:
+          limits:
+            cpu: 50m
         ports:
         - containerPort: 80
           protocol: TCP
