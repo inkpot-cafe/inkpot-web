@@ -20,7 +20,9 @@ spec:
         name: inkpot-web-deployment
         resources:
           limits:
-            cpu: 50m
+            cpu: 20m
+          requests:
+            cpu: 10m
         ports:
         - containerPort: 80
           protocol: TCP
